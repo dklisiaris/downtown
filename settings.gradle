@@ -1,1 +1,1 @@
-include 'downtown', ':downtown'
+include ':downtown'

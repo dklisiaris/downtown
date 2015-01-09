@@ -2,74 +2,74 @@
 <items version="2" >
 
     <item
+        jar="E:\Android_Development\AndroidStudioWorkspace\downtown-guide\downtown\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="E:\Android_Development\AndroidStudioWorkspace\downtown-guide\downtown\build\intermediates\pre-dexed\debug\classes-f64731e9d2a2587abd70da6d7158da43b5bdd585.jar" />
+    </item>
+    <item
+        jar="E:\Android_Development\AndroidStudioWorkspace\downtown-guide\downtown\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.5.87\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="E:\Android_Development\AndroidStudioWorkspace\downtown-guide\downtown\build\intermediates\pre-dexed\debug\classes-d6f97bf8541a6eb72d3c9af7b7c0779b0a9e2363.jar" />
+    </item>
+    <item
+        jar="E:\Android_Development\AndroidStudioWorkspace\downtown-guide\downtown\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="E:\Android_Development\AndroidStudioWorkspace\downtown-guide\downtown\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-cdf15b2f476951e382dd307d7a84be21a6ffc943.jar" />
+    </item>
+    <item
+        jar="E:\Android_Development\AndroidStudioWorkspace\downtown-guide\downtown\build\intermediates\exploded-aar\com.google.maps.android\android-maps-utils\0.3.4\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="cf251baf39f5c5138224b67b4106eb6331abbd13">
+        <dex dex="E:\Android_Development\AndroidStudioWorkspace\downtown-guide\downtown\build\intermediates\pre-dexed\debug\classes-81dd604aa01c61640ad98d37a01f1dd0fb720af3.jar" />
+    </item>
+    <item
+        jar="E:\Android_Development\AndroidStudioWorkspace\downtown-guide\downtown\libs\picasso-2.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ab19bfb23f641f189b6dca9a4d393f8dc291103a">
+        <dex dex="E:\Android_Development\AndroidStudioWorkspace\downtown-guide\downtown\build\intermediates\pre-dexed\debug\picasso-2.1.1-8c6b154488afa409d20931bc259e6567eac262ba.jar" />
+    </item>
+    <item
+        jar="E:\Android_Development\AndroidStudioWorkspace\downtown-guide\downtown\libs\sqliteassethelper-2.0.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d5f02e4a4d65ec0fbb339f2e4228723d1540bb9f">
+        <dex dex="E:\Android_Development\AndroidStudioWorkspace\downtown-guide\downtown\build\intermediates\pre-dexed\debug\sqliteassethelper-2.0.1-09142bb4926087a4786d54aeb2eab8c6e3425823.jar" />
+    </item>
+    <item
         jar="C:\Users\MeeC\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="E:\Android_Development\AndroidStudioWorkspace\downtown\downtown\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-bc66f824287d7372e65a1df9f52f58f77f5a62b9.jar" />
+        <dex dex="E:\Android_Development\AndroidStudioWorkspace\downtown-guide\downtown\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-bc66f824287d7372e65a1df9f52f58f77f5a62b9.jar" />
     </item>
     <item
-        jar="E:\Android_Development\AndroidStudioWorkspace\downtown\downtown\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
-        <dex dex="E:\Android_Development\AndroidStudioWorkspace\downtown\downtown\build\intermediates\pre-dexed\debug\classes-424a925633c06e8b689a4cb796b1f7e76dc85f2e.jar" />
-    </item>
-    <item
-        jar="E:\Android_Development\AndroidStudioWorkspace\downtown\downtown\libs\picasso-2.1.1.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="ab19bfb23f641f189b6dca9a4d393f8dc291103a">
-        <dex dex="E:\Android_Development\AndroidStudioWorkspace\downtown\downtown\build\intermediates\pre-dexed\debug\picasso-2.1.1-bc140a3fc3b3f81002b05c51e31304d7a322945b.jar" />
-    </item>
-    <item
-        jar="E:\Android_Development\AndroidStudioWorkspace\downtown\downtown\build\intermediates\exploded-aar\com.google.maps.android\android-maps-utils\0.3.4\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="cf251baf39f5c5138224b67b4106eb6331abbd13">
-        <dex dex="E:\Android_Development\AndroidStudioWorkspace\downtown\downtown\build\intermediates\pre-dexed\debug\classes-1b1514a0650322e2baa2da21c5730394a5b9a381.jar" />
-    </item>
-    <item
-        jar="E:\Android_Development\AndroidStudioWorkspace\downtown\downtown\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.5.87\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
-        <dex dex="E:\Android_Development\AndroidStudioWorkspace\downtown\downtown\build\intermediates\pre-dexed\debug\classes-849a0fb0e932ba009146972af1d4c3e93730d912.jar" />
-    </item>
-    <item
-        jar="E:\Android_Development\AndroidStudioWorkspace\downtown\downtown\build\intermediates\exploded-aar\com.sothree.slidinguppanel\library\2.0.4\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="0e546fc8dc1f68c39d41c544e2155c797b558492">
-        <dex dex="E:\Android_Development\AndroidStudioWorkspace\downtown\downtown\build\intermediates\pre-dexed\debug\classes-305478b3fd875ddf9690d76b27947131ba29e7d2.jar" />
-    </item>
-    <item
-        jar="E:\Android_Development\AndroidStudioWorkspace\downtown\downtown\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="E:\Android_Development\AndroidStudioWorkspace\downtown\downtown\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-64aebb49d55a640297d1e93f6e250219398d11c4.jar" />
-    </item>
-    <item
-        jar="E:\Android_Development\AndroidStudioWorkspace\downtown\downtown\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jar="E:\Android_Development\AndroidStudioWorkspace\downtown-guide\downtown\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="E:\Android_Development\AndroidStudioWorkspace\downtown\downtown\build\intermediates\pre-dexed\debug\classes-c67b029510120377f44361282966f36dc9259ed1.jar" />
+        <dex dex="E:\Android_Development\AndroidStudioWorkspace\downtown-guide\downtown\build\intermediates\pre-dexed\debug\classes-61452cb3de6f178466fd462e52c30e74d55b209c.jar" />
+    </item>
+    <item
+        jar="E:\Android_Development\AndroidStudioWorkspace\downtown-guide\downtown\build\intermediates\exploded-aar\com.sothree.slidinguppanel\library\2.0.4\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0e546fc8dc1f68c39d41c544e2155c797b558492">
+        <dex dex="E:\Android_Development\AndroidStudioWorkspace\downtown-guide\downtown\build\intermediates\pre-dexed\debug\classes-7fa264d98657b8dda7f6bab68615f77a1bee2995.jar" />
     </item>
     <item
         jar="C:\Users\MeeC\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="E:\Android_Development\AndroidStudioWorkspace\downtown\downtown\build\intermediates\pre-dexed\debug\library-2.4.0-743f28ed404cca40d506249ed13f0c36f91803fe.jar" />
-    </item>
-    <item
-        jar="E:\Android_Development\AndroidStudioWorkspace\downtown\downtown\libs\sqliteassethelper-2.0.1.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="d5f02e4a4d65ec0fbb339f2e4228723d1540bb9f">
-        <dex dex="E:\Android_Development\AndroidStudioWorkspace\downtown\downtown\build\intermediates\pre-dexed\debug\sqliteassethelper-2.0.1-530e75dc063b52857548a2a933d4bdac6259fe92.jar" />
+        <dex dex="E:\Android_Development\AndroidStudioWorkspace\downtown-guide\downtown\build\intermediates\pre-dexed\debug\library-2.4.0-743f28ed404cca40d506249ed13f0c36f91803fe.jar" />
     </item>
 
 </items>
