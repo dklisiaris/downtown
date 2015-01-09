@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="E:\Android_Development\AndroidStudioWorkspace\downtown\androidSlidingUpPanel\src\main\res"><file name="above_shadow" path="E:\Android_Development\AndroidStudioWorkspace\downtown\androidSlidingUpPanel\src\main\res\drawable\above_shadow.xml" qualifiers="" type="drawable"/><file path="E:\Android_Development\AndroidStudioWorkspace\downtown\androidSlidingUpPanel\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="SlidingUpPanelLayout">
+        <attr format="dimension" name="collapsedHeight"/>
+        <attr format="dimension" name="shadowHeight"/>
+        <attr format="color" name="fadeColor"/>
+        <attr format="integer" name="flingVelocity"/>
+        <attr format="reference" name="dragView"/>
+    </declare-styleable></file></source><source path="E:\Android_Development\AndroidStudioWorkspace\downtown\androidSlidingUpPanel\build\generated\res\rs\debug"/><source path="E:\Android_Development\AndroidStudioWorkspace\downtown\androidSlidingUpPanel\build\generated\res\generated\debug"/></dataSet><dataSet config="debug"><source path="E:\Android_Development\AndroidStudioWorkspace\downtown\androidSlidingUpPanel\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="SlidingUpPanelLayout"><attr format="dimension" name="collapsedHeight"/><attr format="dimension" name="shadowHeight"/><attr format="color" name="fadeColor"/><attr format="integer" name="flingVelocity"/><attr format="reference" name="dragView"/></declare-styleable></configuration></mergedItems></merger>

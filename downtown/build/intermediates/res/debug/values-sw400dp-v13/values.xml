@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/E:/Android_Development/AndroidStudioWorkspace/downtown-guide/downtown/src/main/res/values-sw400dp/bools.xml -->
+    <eat-comment/>
+    <bool name="split_action_bar">false</bool>
+</resources>

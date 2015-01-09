@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/resolver_grid"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:clipToPadding="false"
+    android:columnWidth="128dp"
+    android:numColumns="4"
+    android:padding="16dp"
+    android:scrollbarStyle="outsideOverlay" />

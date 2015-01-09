@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.dklisiaris.downtown"
+    android:versionCode="1"
+    android:versionName="1.0.0" >
+    
+    <permission
+    	android:name="org.dklisiaris.downtown.permission.MAPS_RECEIVE"
+    	android:protectionLevel="signature"/>
+  	<uses-permission android:name="org.dklisiaris.downtown.permission.MAPS_RECEIVE"/>
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="21" />
+
+   	    <!-- Permission - Internet Connect -->
+	    <uses-permission android:name="android.permission.INTERNET" />
+	  
+	    <!-- Network State Permissions -->
+	    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />	    
+	    
+	    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+		<uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+		
+		<!-- The following two permissions are not required to use
+     	Google Maps Android API v2, but are recommended.-->
+		<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+		<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />		
+		
+		<uses-feature android:name="android.hardware.location" android:required="false" />
+		<uses-feature android:name="android.hardware.location.gps" android:required="false" />
+		<uses-feature android:name="android.hardware.location.network" android:required="false" />
+		<uses-feature android:name="android.hardware.telephony" android:required="false" />
+	
+
+		<supports-screens android:xlargeScreens="true" />
+    <application
+        android:hardwareAccelerated="true"
+        android:name="org.dklisiaris.downtown.GlobalData"        
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/OpaqBG"
+        android:uiOptions="splitActionBarWhenNarrow"
+        android:screenOrientation="portrait" >
+        
+       <meta-data android:name="android.support.UI_OPTIONS"
+           android:value="splitActionBarWhenNarrow" />        
+
+        <activity
+            android:name="org.dklisiaris.downtown.Intro"
+            android:label="@string/app_name"
+            android:theme="@style/YellowBG"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity 
+            android:name="org.dklisiaris.downtown.MainActivity"
+         	android:label="@string/inapp_name"
+         	android:screenOrientation="portrait"
+       		android:windowSoftInputMode="adjustPan" >
+            
+   		    <!-- enable the search dialog to send searches to SearchableActivity -->
+  			<meta-data 
+  			    android:name="android.app.default_searchable"
+             	android:value=".SearchActivity" />
+    	</activity>
+
+        <activity 
+            android:name="org.dklisiaris.downtown.FavsActivity"
+            android:label="@string/inapp_name" 
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan">
+            <!-- enable the search dialog to send searches to SearchableActivity -->
+  			<meta-data 
+  			    android:name="android.app.default_searchable"
+             	android:value=".SearchActivity" />
+        </activity>
+
+        <activity 
+            android:name="org.dklisiaris.downtown.SingleListItem"
+           	android:label="@string/inapp_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan">
+			<meta-data
+           		android:name="android.support.PARENT_ACTIVITY"
+            	android:value=".Products" />              	          
+        </activity>
+        
+        <activity 
+            android:name="org.dklisiaris.downtown.Products"
+            android:label="@string/inapp_name"
+            android:screenOrientation="portrait"
+			android:windowSoftInputMode="adjustPan">
+			<!-- enable the search dialog to send searches to SearchableActivity -->
+  			<meta-data 
+  			    android:name="android.app.default_searchable"
+             	android:value=".SearchActivity" />
+			<meta-data
+           		android:name="android.support.PARENT_ACTIVITY"
+            	android:value=".Tabs" />             
+        </activity>
+        
+        <!-- Deprecated or debug-only activities.
+        <activity 
+            android:name="org.dklisiaris.downtown.Tabs"
+            android:label="@string/inapp_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan">
+			<meta-data
+           		android:name="android.support.PARENT_ACTIVITY"
+            	android:value=".MainActivity" />            
+        </activity>               
+        
+        <activity 
+            android:name="org.dklisiaris.downtown.Subcategories"
+			android:label="@string/inapp_name"
+			android:screenOrientation="portrait"></activity>
+        
+        <activity 
+            android:name="org.dklisiaris.downtown.Addresses"
+            android:label="@string/inapp_name"
+            android:screenOrientation="portrait"/>
+        
+        <activity 
+            android:name="org.dklisiaris.downtown.Websites"
+		    android:label="@string/inapp_name"
+		    android:screenOrientation="portrait"/>
+        	    		    
+        <activity 
+            android:name="org.dklisiaris.downtown.TestActivity"
+          	android:label="@string/test" >
+			<meta-data
+           		android:name="android.support.PARENT_ACTIVITY"
+            	android:value=".MainActivity" />
+        </activity> 
+        -->
+        
+        <activity 
+            android:name="org.dklisiaris.downtown.WebViewActivity"
+            android:label="@string/inapp_name"
+            android:screenOrientation="portrait">
+			<meta-data
+           		android:name="android.support.PARENT_ACTIVITY"
+            	android:value=".SingleListItem" />
+        </activity>
+        
+        <activity 
+            android:name="org.dklisiaris.downtown.MoreActivity"
+            android:label="@string/inapp_name"
+            android:screenOrientation="portrait">
+			<meta-data
+           		android:name="android.support.PARENT_ACTIVITY"
+            	android:value=".MainActivity" />
+        </activity>  
+              
+        <activity 
+            android:name="org.dklisiaris.downtown.MapActivity"
+            android:label="@string/inapp_name" >
+			<meta-data
+           		android:name="android.support.PARENT_ACTIVITY"
+            	android:value=".SingleListItem" />
+        </activity> 
+        
+	    <activity 
+	        android:name="org.dklisiaris.downtown.SearchActivity" 
+        	android:label="@string/inapp_name"
+          	android:screenOrientation="portrait"
+	        android:windowSoftInputMode="adjustPan">
+	        <intent-filter>
+	            <action android:name="android.intent.action.SEARCH" />
+	        </intent-filter>
+	        <meta-data 
+	            android:name="android.app.searchable"
+                android:resource="@xml/searchable"/>
+	    </activity>
+
+        <activity 
+            android:name="org.dklisiaris.downtown.SubcatsAndFilters"
+         	android:label="@string/inapp_name" >
+			<!-- enable the search dialog to send searches to SearchableActivity -->
+  			<meta-data 
+  			    android:name="android.app.default_searchable"
+             	android:value=".SearchActivity" />
+			<meta-data
+           		android:name="android.support.PARENT_ACTIVITY"
+            	android:value=".MainActivity" />
+        </activity> 
+        		 
+        <activity             
+            android:name="org.dklisiaris.downtown.maps.Nearby" 
+            android:label="@string/inapp_name" >	
+            <!-- enable the search dialog to send searches to SearchableActivity -->
+  			<meta-data 
+  			    android:name="android.app.default_searchable"
+             	android:value=".SearchActivity" />
+ 		</activity> 
+              
+        <provider
+		   	android:name="org.dklisiaris.downtown.providers.KeywordProvider"
+		   	android:authorities="org.dklisiaris.downtown.providers.keywords"
+		   	android:exported="false" /> 
+		   	
+		<meta-data 
+	        android:name="android.app.default_searchable"
+        	android:value=".SearchableActivity" />               
+		<meta-data
+		    android:name="com.google.android.maps.v2.API_KEY"		    
+		    android:value="AIzaSyDIAO7wsqBy6wo3ltvzjbwovLEaMtPSYz4" /> 
+    </application>
+
+</manifest>

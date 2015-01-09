@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:compat="http://schemas.android.com/apk/res-auto" >
+    <item android:id="@+id/toMainHome"
+          android:icon="@drawable/ic_title_home_default"
+          android:title="@string/home"
+          compat:showAsAction="ifRoom"/>
+	<item android:id="@+id/favourites"
+          android:title="@string/favsgr"
+          android:icon="@drawable/ic_rating_not_important"
+          compat:showAsAction="ifRoom"/>
+    <item android:id="@+id/share_btn"
+          android:icon="@drawable/ic_social_share"
+          compat:showAsAction="always"
+          android:title="@string/share"
+         />   
+    <item android:id="@+id/more"
+          android:icon="@drawable/ic_action_about"
+          android:title="@string/more"
+          compat:showAsAction="always">
+		<menu>    
+			<item
+		        android:id="@+id/FreeEntry"
+		        android:orderInCategory="80"
+		        compat:showAsAction="never"
+		        android:title="@string/freeentry"/> 
+			<item
+		        android:id="@+id/MoreInfo"
+		        android:orderInCategory="90"
+		        compat:showAsAction="never"
+		        android:title="@string/info"/> 
+			<item
+		        android:id="@+id/Contact"
+		        android:orderInCategory="100"
+		        compat:showAsAction="never"
+		        android:title="@string/contact"/>  
+		</menu>
+	</item>	
+</menu>
+<!-- From: file:/E:/Android_Development/AndroidStudioWorkspace/downtown-guide/downtown/src/main/res/menu/single_item.xml -->

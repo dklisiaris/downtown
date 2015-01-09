@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+  <!--  Gradient Bg for listrow -->
+     <gradient
+            android:type="radial"
+            android:startColor="#ffea65"
+            android:endColor="#efd326"
+            android:gradientRadius="320"
+            android:angle="270"
+            android:centerX="0.5"
+            android:centerY="0.5"/>
+</shape>
+<!-- From: file:/E:/Android_Development/AndroidStudioWorkspace/downtown-guide/downtown/src/main/res/drawable/gradient_bg_intro.xml -->

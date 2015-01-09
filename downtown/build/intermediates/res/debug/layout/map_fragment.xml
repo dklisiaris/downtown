@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"	    
+    android:orientation="vertical">
+
+	<org.dklisiaris.downtown.widgets.MultiSpinner 
+	    android:id="@+id/multi_spinner" 
+	    android:layout_width="fill_parent"
+    	android:layout_height="?attr/actionBarSize"
+    	android:background="@drawable/list_selector"		
+	    />
+	
+	<fragment
+		android:id="@+id/map"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		class="com.google.android.gms.maps.SupportMapFragment"/>
+
+</LinearLayout>
+<!-- From: file:/E:/Android_Development/AndroidStudioWorkspace/downtown-guide/downtown/src/main/res/layout/map_fragment.xml -->

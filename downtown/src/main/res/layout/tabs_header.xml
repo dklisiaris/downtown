@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+    
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_selector"
+    android:orientation="horizontal"
+    android:paddingLeft="22dp"
+    android:paddingRight="22dp"
+    android:paddingTop="6dp"
+    android:paddingBottom="6dp" >
+    
+    <!--  ListRow Left sied Thumbnail image -->
+    <LinearLayout android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="3dip"
+        android:layout_alignParentLeft="true"  
+        android:layout_centerVertical="true"    
+        android:layout_marginTop="2dip"
+        android:layout_marginRight="10dip">                
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:lines="1" 
+		android:ellipsize="end"
+		android:fontFamily="sans-serif"
+		android:textColor="#99000000"
+        android:textSize="16sp"
+       
+        android:text="@string/category"
+
+        />        
+    <!-- Area-->
+
+    <TextView
+        android:id="@+id/ctgr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-thin"
+        android:text="@string/test"
+        android:maxLines="2" 
+		android:ellipsize="end"
+		android:layout_marginRight="30dp"
+        android:textColor="#99000000"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+ 
+    </LinearLayout>
+
+    <!-- Rightend Arrow -->
+     <ImageView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher"
+        android:contentDescription="@string/img_desc"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+ 
+</RelativeLayout>

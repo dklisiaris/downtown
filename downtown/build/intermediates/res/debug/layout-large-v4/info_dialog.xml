@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>    
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"    
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+   	android:background="@drawable/gradient_bg_intro" >
+   	
+    <RelativeLayout
+	android:layout_width="fill_parent"    
+    android:layout_height="45dp"
+    android:background="@drawable/actionbar_background"        
+    >
+
+        
+		 <TextView
+		   android:id="@+id/dialog_title"
+		   android:layout_width="wrap_content"
+		   android:layout_height="wrap_content"
+		   android:layout_centerVertical="true"
+		   android:layout_centerHorizontal="true"
+	       android:fontFamily="sans"
+	       android:layout_marginTop="1dip"
+	       android:textSize="18sp"
+	       android:textStyle="bold"
+	       android:textColor="#f3f3f3"
+	       android:text="@string/test"
+			android:paddingLeft="3sp"	 
+	  		android:paddingRight="3sp" 
+		    />        
+    </RelativeLayout>
+    <RelativeLayout
+	android:layout_width="fill_parent"    
+    android:layout_height="620dp"
+	android:layout_marginTop="10dp"
+	android:layout_marginBottom="10dp"
+	android:layout_marginRight="10dp"
+	android:layout_marginLeft="20dp" >   	        
+        
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:layout_alignParentLeft="true"
+            android:contentDescription="@string/img_desc"            
+            android:src="@drawable/logobackface"            
+            />
+        
+		 <TextView
+		   android:id="@+id/title"
+		   android:layout_width="wrap_content"
+		   android:layout_height="wrap_content"
+		   android:layout_alignParentTop="true"
+		   android:layout_toRightOf="@+id/logo"
+	       android:fontFamily="sans-serif"
+	       android:layout_marginTop="1dip"
+	       android:textSize="22sp"	       
+	       android:textColor="#1e90ff"
+	       android:text="@string/test"
+			android:paddingLeft="3sp"	 
+	  		android:paddingRight="3sp" 
+		    />
+		 
+		 <LinearLayout  
+		    android:layout_width="fill_parent"    
+		    android:layout_height="fill_parent"
+			android:layout_below="@id/logo"
+			android:layout_alignParentLeft="true"
+		    >   
+		     
+		     <WebView
+			    android:id="@+id/webText"
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			    android:paddingLeft="3sp"	 
+		  		android:paddingRight="3sp"		  		
+		  		android:background="@android:color/transparent"
+        		android:layerType="software" />
+		     
+	   	</LinearLayout >
+	    		    		 
+	</RelativeLayout>
+	    <View
+	    android:id="@+id/horizon_line"
+	    android:layout_width="fill_parent"
+	    android:layout_height="1dp"
+	    android:paddingBottom="1sp"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginRight="20dp"
+	    android:background="@color/actionbar_background_start"/>
+	    
+		<TextView
+		  android:layout_width="fill_parent"
+		  android:layout_height="wrap_content"
+		 	android:layout_marginTop="5dip"
+		  	android:fontFamily="sans-serif-thin"
+		    android:textSize="12sp"
+		    android:textColor="#1e90ff"
+		    android:text="@string/scroll"
+		    android:gravity="right"
+		    android:layout_marginRight="20dp"
+		    android:paddingBottom="5dp"
+			 />	    	
+    
+		    <Button
+    	    android:id="@+id/btn_close"
+    	   	android:layout_width="fill_parent"
+		   	android:layout_height="40dp"
+    	    android:text="@string/close"    	        	   
+    	  	android:textSize="18sp"
+	       	android:textStyle="normal"
+	       	android:textColor="#f3f3f3"
+    	    android:padding="3dp"
+    	    android:background="@drawable/actionbar_btn"    	    
+        	/>
+</LinearLayout>
+
+<!-- From: file:/E:/Android_Development/AndroidStudioWorkspace/downtown-guide/downtown/src/main/res/layout-large/info_dialog.xml -->

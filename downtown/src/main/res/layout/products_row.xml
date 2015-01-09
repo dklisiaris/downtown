@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/tablist_selector"
+    android:orientation="horizontal"
+	android:paddingBottom="12sp"
+    android:paddingLeft="22sp"
+    android:paddingRight="22sp" >
+    
+        <!-- Name of Company -->
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="0sp"
+        android:maxLines="2" 
+		android:ellipsize="end"
+		android:fontFamily="sans"
+		android:textColor="#99000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="@string/test"
+        android:layout_alignParentTop="true"
+        />
+    <View
+    android:id="@+id/horizon_line"
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"
+    android:paddingBottom="1sp"
+    android:layout_below="@id/name" 
+    android:background="@color/actionbar_background_start"/>
+ 
+    <!--  ListRow Left sied Thumbnail image -->
+    <LinearLayout android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dip"
+        android:layout_alignParentLeft="true" 
+        android:layout_below="@id/horizon_line"       
+        android:background="@drawable/image_bg"
+        android:layout_marginTop="2dip"
+        android:layout_marginRight="10dip">                
+ 
+        <ImageView
+            android:id="@+id/list_image"
+            android:layout_width="80dip"
+            android:layout_height="80dip"
+            android:contentDescription="@string/img_desc"
+            android:scaleType="centerCrop"
+            android:src="@drawable/blankside"/>
+ 
+    </LinearLayout>
+ 
+
+    
+ <!-- android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail" 
+        
+        -->
+        
+    <!-- Area-->
+   	 <TextView
+        android:id="@+id/address"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:textColor="#99000000"
+        android:textSize="14sp"
+        android:layout_marginTop="1dip"
+        android:fontFamily="sans-serif"
+        android:text="@string/test"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/thumbnail"
+        />
+	 <TextView
+        android:id="@+id/area"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/address"
+        android:textColor="#99000000"
+        android:textSize="12sp"
+        android:layout_marginTop="1dip"
+        android:fontFamily="sans-serif"
+        android:text="@string/test"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/thumbnail"
+        />
+	  
+    <TextView
+        android:id="@+id/tel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/area"
+        android:layout_marginTop="1dip"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:fontFamily="sans-serif-thin"
+        android:textSize="12sp"
+        android:textColor="#343434"
+        android:text="@string/test"
+        /> 
+   	<TextView
+        android:id="@+id/categ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tel"
+        android:layout_marginTop="1dip"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:fontFamily="sans-serif-thin"
+        android:textSize="12sp"
+        android:textColor="#343434"
+        android:text="@string/test"
+        /> 
+        
+   	   	<TextView
+        android:id="@+id/subcateg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/categ"
+        android:layout_marginTop="1dip"
+        android:text="@string/test"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:fontFamily="sans-serif-thin"
+        android:textSize="12sp"
+        android:textColor="#343434"
+        /> 
+ 
+     <!-- Rightend Arrow -->
+     <ImageView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/arrow"
+        android:contentDescription="@string/img_desc"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+ 
+</RelativeLayout>
+

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <initial_images update-time="2013-09-12_07:38:20">
+        <image>Head01.jpg</image>
+        <image>Head02.jpg</image>
+        <image>Head03.jpg</image>
+        <image>Head04.jpg</image>
+        <image>Head05.jpg</image>
+        <image>Head06.jpg</image>
+        <image>Head07.jpg</image>
+    </initial_images>
+    <categories update-time="2013-09-12_07:38:20">
+        <category id="1">
+            <name>Υγεία</name>
+            <subcategory id="13">Αναπηρικά και Ορθοπεδικά Είδη</subcategory>
+            <subcategory id="14">Δερματολόγοι-Αφροδισιολόγοι</subcategory>
+            <subcategory id="15">Διαγνωστικά Κέντρα</subcategory>
+            <subcategory id="16">Διαιτολόγοι</subcategory>
+            <subcategory id="17">Κτηνιατρεία και Κτηνιατρικές Κλινικές</subcategory>
+            <subcategory id="18">Μικροβιολογικά Εργαστήρια</subcategory>
+            <subcategory id="19">Μονάδες Φροντίδας Ηλικιωμένων</subcategory>
+            <subcategory id="20">Ορθοπαιδικοί</subcategory>
+            <subcategory id="21">Ουρολόγοι</subcategory>
+            <subcategory id="22">Φαρμακεία</subcategory>
+            <subcategory id="23">Οπτικά</subcategory>
+            <subcategory id="82">Ψυχίατροι</subcategory>
+            <subcategory id="83">Φυσιοθεραπεία</subcategory>
+            <subcategory id="84">Λογοθεραπεία</subcategory>
+            <subcategory id="85">Ρεφλεξολογία</subcategory>
+        </category>
+        <category id="2">
+            <name>Αυτοκίνητο και άλλα Οχήματα</name>
+            <subcategory id="24">Αντιπροσωπείες Αυτοκινήτων</subcategory>
+            <subcategory id="25">Αντιπροσωπείες Μοτοσυκλετών</subcategory>
+            <subcategory id="26">Αυτοκινήτων Ανταλλακτικά, Είδη και Αξεσουάρ</subcategory>
+            <subcategory id="27">Βενζινάδικα</subcategory>
+            <subcategory id="28">Ηλεκτρολογεία Αυτοκινήτων - Μοτοσυκλετών</subcategory>
+            <subcategory id="29">Μπαγκαζιέρες και Τρέιλερ</subcategory>
+            <subcategory id="30">Πάρκινγκ</subcategory>
+            <subcategory id="31">Πλυντήρια Αυτοκινήτων</subcategory>
+            <subcategory id="32">Ποδήλατα</subcategory>
+            <subcategory id="33">Συνεργεία Αυτοκινήτων - Μοτοσικλετών</subcategory>
+            <subcategory id="34">Αξεσουάρ Αυτοκινήτων</subcategory>
+            <subcategory id="35">Υγραεριοκίνηση</subcategory>
+            <subcategory id="86">Σχολές Οδηγών</subcategory>
+        </category>
+        <category id="3">
+            <name>Κατασκευές - Οικοδομικά Υλικά - Εργοληψίες</name>
+            <subcategory id="36">Αρχιτέκτονες και Αρχιτεκτονικά Γραφεία</subcategory>
+            <subcategory id="37">Είδη και Κατασκευές Αλουμινίου</subcategory>
+            <subcategory id="39">Ξυλουργικές Εργασίες</subcategory>
+            <subcategory id="40">Οικοδομικά Εργαλεία και Υλικά</subcategory>
+            <subcategory id="41">Οικοδομικές Επιχειρήσεις και Εργασίες</subcategory>
+            <subcategory id="43">Πολιτικοί Μηχανικοί</subcategory>
+            <subcategory id="45">Τεχνικά Γραφεία και Εταιρείες</subcategory>
+            <subcategory id="87">Ανακαίνιση</subcategory>
+            <subcategory id="88">Μονώσεις</subcategory>
+            <subcategory id="89">Φωτοβολταϊκά</subcategory>
+        </category>
+        <category id="4">
+            <name>Εκπαίδευση</name>
+            <subcategory id="90">Προσχολική Εκπαίδευση</subcategory>
+            <subcategory id="91">Πρωτοβάθμια Εκπαίδευση</subcategory>
+            <subcategory id="92">Δευτεροβάθμια Εκπαίδευση</subcategory>
+            <subcategory id="93">Τριτοβάθμια Εκπαίδευση</subcategory>
+            <subcategory id="94">Αθλητική Εκπαίδευση</subcategory>
+            <subcategory id="95">Εκπαίδευση Γλωσσών</subcategory>
+            <subcategory id="96">Υποστηρικτική Εκπαίδευση</subcategory>
+        </category>
+        <category id="5">
+            <name>Ελεύθερος Χρόνος και Τέχνη</name>
+            <subcategory id="51">Βιντεοκλάμπ - DVD</subcategory>
+            <subcategory id="53">Σχολές Χορού</subcategory>
+            <subcategory id="54">Ωδεία</subcategory>
+            <subcategory id="55">Internet Cafe</subcategory>
+            <subcategory id="97">Βιβλιοπωλεία</subcategory>
+            <subcategory id="98">Παιχνίδια</subcategory>
+            <subcategory id="99">Στούντιο Ηχογραφήσεων</subcategory>
+            <subcategory id="100">Μουσικά Όργανα</subcategory>
+            <subcategory id="101">Ζωγράφοι</subcategory>
+            <subcategory id="102">Petshop</subcategory>
+        </category>
+        <category id="6">
+            <name>Τουρισμός - Ταξίδια</name>
+            <subcategory id="56">Ενοικιαζόμενα Δωμάτια</subcategory>
+            <subcategory id="103">Ταξιδιωτικά Πρακτορεία</subcategory>
+            <subcategory id="104">Οργανωμένα Ταξίδια</subcategory>
+            <subcategory id="105">Ταξίδια</subcategory>
+        </category>
+        <category id="7">
+            <name>Τρόφιμα - Ποτά και Καταστήματα</name>
+            <subcategory id="58">Ζαχαροπλαστεία</subcategory>
+            <subcategory id="106">Διατροφή</subcategory>
+            <subcategory id="107">Κρεοπωλεία</subcategory>
+            <subcategory id="108">Λαχανικά</subcategory>
+            <subcategory id="109">Παγωτά</subcategory>
+            <subcategory id="110">Ποτά</subcategory>
+            <subcategory id="111">Περίπτερα</subcategory>
+            <subcategory id="112">Ψιλικά</subcategory>
+            <subcategory id="113">Σούπερ Μάρκετ</subcategory>
+            <subcategory id="114">Καντίνες</subcategory>
+            <subcategory id="115">Ζωοτροφές</subcategory>
+            <subcategory id="116">Συσκευασία</subcategory>
+            <subcategory id="117">Τρόφιμα</subcategory>
+            <subcategory id="118">Φούρνοι</subcategory>
+        </category>
+        <category id="8">
+            <name>Αθλητισμός - Προσωπική Φροντίδα και Ομορφιά</name>
+            <subcategory id="60">Αθλητικά Είδη</subcategory>
+            <subcategory id="61">Μανικιούρ - Πεντικιούρ</subcategory>
+            <subcategory id="62">Τατουάζ</subcategory>
+            <subcategory id="64">Κομμωτηρία</subcategory>
+            <subcategory id="65">Προϊόντα Ομορφιάς</subcategory>
+            <subcategory id="66">Κέντρα Αισθητικής</subcategory>
+            <subcategory id="119">Γυμναστήρια</subcategory>
+            <subcategory id="120">Μασάζ</subcategory>
+        </category>
+        <category id="9">
+            <name>Γεωργία και Άνθη - Δένδρα - Φυτά</name>
+            <subcategory id="67">Ανθοπωλεία</subcategory>
+            <subcategory id="121">Φυτά</subcategory>
+        </category>
+        <category id="10">
+            <name>Ψυχαγωγία και Γεύση</name>
+            <subcategory id="69">Ψητοπωλεία</subcategory>
+            <subcategory id="122">Εστιατόρια</subcategory>
+            <subcategory id="123">Καφενεία - Καφετέριες - Καφέ Μπαρ</subcategory>
+            <subcategory id="124">Πιτσαρίες</subcategory>
+            <subcategory id="125">Ταβέρνες</subcategory>
+            <subcategory id="126">Ψυχαγωγία</subcategory>
+            <subcategory id="127">Αίθουσες Εκδηλώσεων</subcategory>
+        </category>
+        <category id="11">
+            <name>Ένδυση και Ατομικά Είδη - Υφάσματα και Δέρματα</name>
+            <subcategory id="70">Δερμάτινα Είδη</subcategory>
+            <subcategory id="71">Είδη Γάμου - Βαπτιστικά</subcategory>
+            <subcategory id="72">Μοδίστρες και Επιδιορθώσεις Ενδυμάτων</subcategory>
+            <subcategory id="73">Παπούτσια</subcategory>
+            <subcategory id="74">Ρούχα</subcategory>
+            <subcategory id="75">Κοσμηματοπωλείο</subcategory>
+            <subcategory id="128">Εσώρουχα</subcategory>
+            <subcategory id="129">Παιδικά Ρούχα</subcategory>
+        </category>
+        <category id="12">
+            <name>Τεχνολογία</name>
+            <subcategory id="76">Βιομηχανική Πληροφορική</subcategory>
+            <subcategory id="81">Κινητή Τηλεφωνία</subcategory>
+            <subcategory id="130">Service Υπολογιστών</subcategory>
+            <subcategory id="131">Πληροφορική</subcategory>
+            <subcategory id="132">Προγραμματιστές</subcategory>
+            <subcategory id="133">Web Portals</subcategory>
+            <subcategory id="134">Web Hosting</subcategory>
+            <subcategory id="135">Διάθεση διαφημιστικού χώρου</subcategory>
+        </category>
+        <category id="136">
+            <name>Σπίτι - Γραφείο</name>
+            <subcategory id="138">Γραφική Ύλη</subcategory>
+            <subcategory id="139">Χαρτικά</subcategory>
+            <subcategory id="140">Ελαιοχρωματισμοί</subcategory>
+            <subcategory id="141">Έπιπλα</subcategory>
+            <subcategory id="142">Ηλεκτρικές Συσκευές</subcategory>
+            <subcategory id="143">Μεσίτες</subcategory>
+            <subcategory id="144">Μετακομίσεις</subcategory>
+            <subcategory id="145">Εκτυπώσεις</subcategory>
+        </category>
+        <category id="137">
+            <name>Υπηρεσίες</name>
+            <subcategory id="146">Γραφεία Τελετών</subcategory>
+            <subcategory id="147">Αστρολόγοι</subcategory>
+            <subcategory id="148">Γραφίστες</subcategory>
+            <subcategory id="149">Σχεδίαση Ιστοσελίδων</subcategory>
+            <subcategory id="150">Δημοσκοπήσεις</subcategory>
+            <subcategory id="151">Ταχυμεταφορές</subcategory>
+            <subcategory id="152">Διαφήμιση</subcategory>
+            <subcategory id="153">Εκδόσεις</subcategory>
+            <subcategory id="154">Ελαιοχρωματισμοί</subcategory>
+            <subcategory id="155">Επισκευή - Τοποθέτηση Κλιματιστικών</subcategory>
+            <subcategory id="156">Ηλεκτρολόγοι</subcategory>
+            <subcategory id="157">Υδραυλικοί</subcategory>
+            <subcategory id="158">Λογιστές</subcategory>
+            <subcategory id="160">Μεταφορές</subcategory>
+            <subcategory id="161">Σύμβουλοι</subcategory>
+            <subcategory id="162">Φωτογραφικές Δραστηριότητες</subcategory>
+            <subcategory id="163">Υπηρεσίες Διαδικτύου</subcategory>
+            <subcategory id="164">Σκηνοθέτες</subcategory>
+            <subcategory id="165">Συγγραφείς</subcategory>
+        </category>
+    </categories>
+</Configuration>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:compat="http://schemas.android.com/apk/res-auto" >
+     <item android:id="@+id/menu_search"
+          android:title="@string/search"
+          android:icon="@drawable/ic_action_search"
+          compat:iconifiedByDefault="true"
+          compat:showAsAction="ifRoom|collapseActionView"
+          compat:actionViewClass="android.support.v7.widget.SearchView" />     		
+    <item android:id="@+id/toMainHome"
+          android:icon="@drawable/ic_title_home_default"
+          android:title="@string/home"
+          compat:showAsAction="ifRoom"/>      
+    <item android:id="@+id/favourites"
+          android:title="@string/favsgr"
+          android:icon="@drawable/ic_rating_half_important"
+          compat:showAsAction="always"
+           />
+	      
+    <item android:id="@+id/more"
+          android:icon="@drawable/ic_action_about"
+          android:title="@string/more"
+          compat:showAsAction="always">
+		<menu>    
+			<item
+		        android:id="@+id/FreeEntry"
+		        android:orderInCategory="80"
+		        compat:showAsAction="never"
+		        android:title="@string/freeentry"/> 
+			<item
+		        android:id="@+id/MoreInfo"
+		        android:orderInCategory="90"
+		        compat:showAsAction="never"
+		        android:title="@string/info"/> 
+			<item
+		        android:id="@+id/Contact"
+		        android:orderInCategory="100"
+		        compat:showAsAction="never"		        
+		        android:title="@string/contact"/>  
+		</menu>
+	</item>	
+</menu>
+<!-- From: file:/E:/Android_Development/AndroidStudioWorkspace/downtown-guide/downtown/src/main/res/menu/menu_general.xml -->

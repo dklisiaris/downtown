@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  	<color name="opaque_red">#f00</color>
+    <color name="translucent_red">#80ff0000</color>
+	<color name="yellow">#ffbb33</color>  
+  	<color name="blue">#33b5e5</color>
+  	<color name="actionbar_separator">#3A5FCD</color>
+  	<color name="action_bar_line_color">#f3f3f3</color>
+    <color name="actionbar_background_start">#1e90ff</color>
+    <color name="actionbar_background_end">#3a6ded</color>
+    <color name="actionbar_title">#FFFFFF</color>
+    <drawable name="ab_bg_black">#aa000000</drawable>
+    <color name="light_silver">#CCCCCC</color>
+    <color name="light_yellow">#ffff00</color>
+    <color name="white">#f3f3f3</color>
+<!--    <color name="actionbar_separator">#8B1A1A</color>
+    <color name="actionbar_background_start">#8B1A1A</color>
+    <color name="actionbar_background_end">#CD2626</color> -->
+    <color name="actionbar_background_item_pressed_start">#FF7F00</color>
+    <color name="actionbar_background_item_pressed_end">#EE7600</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="holo_light_background">#ffe8e8e8</color>
+    <color name="holo_light_selected">#ff7cc9e5</color>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@drawable/actionbar_btn"
+              android:orientation="vertical"
+              android:padding="12dip" >
+ 
+    <TextView android:id="@+id/keyword_suggestion"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/test"
+              android:fontFamily="sans-serif"
+              android:textStyle="bold"
+              android:textColor="#f3f3f3"
+              android:textSize="12sp"
+               />
+    
+	  <TextView android:id="@+id/keyword_suggestion2"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@null"
+	        android:fontFamily="sans-serif"	        
+	        android:textColor="#f3f3f3"
+	        android:textSize="12sp"
+	         />
+ 
+</LinearLayout>

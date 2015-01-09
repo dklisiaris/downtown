@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SlidingUpPanelLayout"><attr format="dimension" name="collapsedHeight"/><attr format="dimension" name="shadowHeight"/><attr format="color" name="fadeColor"/><attr format="integer" name="flingVelocity"/><attr format="reference" name="dragView"/></declare-styleable>
+</resources>

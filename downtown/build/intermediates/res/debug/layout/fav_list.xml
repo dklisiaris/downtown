@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/android:list"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:divider="#b5b5b5"
+	android:dividerHeight="0.3dp"
+	/>
+<!-- From: file:/E:/Android_Development/AndroidStudioWorkspace/downtown-guide/downtown/src/main/res/layout/fav_list.xml -->

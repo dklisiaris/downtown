@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  
+    xmlns:android="http://schemas.android.com/apk/res/android"   
+    android:layout_width="fill_parent"    
+    android:layout_height="fill_parent"
+    android:background="@drawable/gradient_bg_intro" >  
+    
+ 	<RelativeLayout
+	android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="40dp"
+    android:layout_marginLeft="25dp"
+    android:layout_marginRight="25dp"
+    android:padding="10sp"        
+    >
+	 <TextView
+	   android:id="@+id/title"
+	   android:layout_width="wrap_content"
+	   android:layout_height="wrap_content"
+	   android:layout_alignParentTop="true"
+	   android:layout_alignParentLeft="true"
+       android:fontFamily="sans"
+       android:layout_marginTop="1dip"
+       android:textSize="20sp"
+       android:textStyle="bold"
+       android:textColor="#343434"
+       android:text="@string/test"
+		android:paddingLeft="6sp"	 
+  		android:paddingRight="6sp" 
+	    />     
+	 <TextView
+	   android:id="@+id/info_text"
+	   android:layout_width="wrap_content"
+	   android:layout_height="wrap_content"
+	   android:layout_below="@id/title"
+		android:layout_alignParentLeft="true"
+       android:fontFamily="sans-serif"
+       android:layout_marginTop="1dip"
+       android:textSize="14sp"
+       android:textColor="#343434"
+       android:text="@string/test"
+		android:paddingLeft="6sp"	 
+  		android:paddingRight="6sp" 
+	    /> 
+	    
+		    
+	</RelativeLayout> 
+</ScrollView><!-- From: file:/E:/Android_Development/AndroidStudioWorkspace/downtown-guide/downtown/src/main/res/layout/more.xml -->

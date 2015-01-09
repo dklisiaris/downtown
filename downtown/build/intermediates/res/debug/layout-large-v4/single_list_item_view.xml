@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.dklisiaris.downtown.widgets.CustomScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+  	android:layout_height="match_parent"
+  	android:background="@drawable/tablist_bg"
+  	>
+	<LinearLayout
+	  android:orientation="vertical"
+	  android:layout_width="match_parent"
+	  android:layout_height="wrap_content"
+	  android:paddingLeft="8dp"
+	  android:paddingRight="8dp" >		   
+	
+   	    <LinearLayout
+			android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+			android:orientation="horizontal"	        
+	        >	
+       	     <ImageButton android:id="@+id/left_arrow" 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:paddingTop="15dp"
+		        android:paddingBottom="15dp"
+		        android:layout_gravity="center"
+		        android:src="@drawable/ic_navigation_previous_item"
+		        android:background="@drawable/img_btn_selector"
+		        android:contentDescription="@string/img_desc"/>
+       	     		     
+		 <RelativeLayout
+		    android:id="@+id/infos"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:padding="1dip"
+		    android:orientation="horizontal">
+				 <ImageView
+				   android:id="@+id/imageView1"
+				   android:layout_width="600sp"
+				   android:layout_height="400sp"
+				   android:layout_centerHorizontal="true"
+				   android:adjustViewBounds="true"
+				   android:scaleType="fitCenter"				   
+				   android:contentDescription="@string/img_desc"
+				   android:src="@drawable/blankside" 
+				    />
+				<ImageView
+				   android:id="@+id/imageView2"
+				   android:layout_width="600sp"
+				   android:layout_height="400sp"
+				   android:layout_centerHorizontal="true"
+				   android:adjustViewBounds="true"
+				   android:scaleType="fitCenter"				   
+				   android:contentDescription="@string/img_desc"
+				   android:src="@drawable/blankside"
+				   android:visibility="gone" 
+				    />
+			</RelativeLayout>	
+	   	    
+		 <ImageButton android:id="@+id/right_arrow" 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:paddingTop="15dp"
+		        android:paddingBottom="15dp"
+		        android:layout_gravity="center"
+		        android:src="@drawable/ic_navigation_next_item"
+		        android:background="@drawable/img_btn_selector"
+		        android:contentDescription="@string/img_desc"/>				
+		 
+	    </LinearLayout>
+	 <LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:layout_marginTop="5dp"
+		android:paddingBottom="12sp"
+	    android:paddingLeft="14sp"
+	    android:paddingRight="14sp" >
+
+ 	  	<View
+		    android:id="@+id/horizon_line_0"
+		    android:layout_width="fill_parent"
+		    android:layout_height="1dp"
+		    android:paddingBottom="1dp"	
+		    android:background="@color/actionbar_background_start"/> 		
+	    
+    	<RelativeLayout
+			android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:padding="18sp"
+		    android:paddingLeft="6sp"
+		    android:paddingRight="6sp"	        
+	        > 
+	     <ImageView android:id="@+id/icon_name" 
+	        android:layout_width="30dp"
+	        android:layout_height="30dp"
+	        android:src="@drawable/whois"	        
+	        android:contentDescription="@string/img_desc"
+	        android:layout_alignParentLeft="true"
+	        android:layout_centerVertical="true"/>		        
+    	    	  
+	  	  <TextView android:id="@+id/name"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_toRightOf="@+id/icon_name"
+	            android:layout_centerVertical="true"
+	            android:textSize="24sp"
+	            android:textStyle="normal"
+	            android:layout_marginLeft="6dp"
+	            android:layout_marginRight="2dp"
+	            android:padding="1dip"
+	            android:text="@string/test"
+	            android:textColor="@color/actionbar_background_start"/> 
+           	 
+   	</RelativeLayout>    	  
+
+  	   	<View
+		    android:id="@+id/horizon_line"
+		    android:layout_width="fill_parent"
+		    android:layout_height="1dp"
+		    android:paddingBottom="1dp"	
+		    android:background="@color/actionbar_background_start"/> 	     
+	     
+ 	 	<RelativeLayout
+ 	 	    android:id="@+id/addr_layout"
+			android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:padding="18sp"
+		    android:paddingLeft="6sp"
+		    android:paddingRight="6sp"	
+		    android:onClick="onClick"
+		    android:background="@drawable/img_btn_selector"        
+	        > 
+		     <ImageView android:id="@+id/icon_addr" 
+		        android:layout_width="30dp"
+		        android:layout_height="30dp"
+		        android:src="@drawable/findme"	        
+		        android:contentDescription="@string/img_desc"
+		        android:layout_alignParentLeft="true"
+		        android:layout_centerVertical="true"/>	
+		    <!-- Area-->	    
+		    <TextView
+		        android:id="@+id/address_label"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+      	        android:layout_toRightOf="@+id/icon_addr"
+	            android:layout_centerVertical="true"	        
+		        android:textColor="#343434"
+		        android:textSize="24sp"		        
+		        android:fontFamily="sans-serif"
+		        android:text="@string/address_label"
+		    	android:paddingLeft="7sp"	 
+		    	android:paddingRight="3sp"   	       
+		        />
+		     <!-- Rightend Arrow -->
+		     <ImageView android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/arrow"
+		        android:contentDescription="@string/img_desc"
+		        android:layout_alignParentRight="true"
+		        android:layout_centerVertical="true"/>		    
+		    </RelativeLayout>
+	    <View
+		    android:id="@+id/horizon_line_1"
+		    android:layout_width="fill_parent"
+		    android:layout_height="1dp"
+		    android:paddingBottom="1dp"		
+		    android:background="@color/actionbar_background_start"/>
+	    	    
+ 	 	<RelativeLayout
+ 	 	    android:id="@+id/tel_layout"
+			android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:padding="18sp"
+		    android:paddingLeft="6sp"
+		    android:paddingRight="6sp"	
+		    android:onClick="onClick"
+		    android:background="@drawable/img_btn_selector"        
+	        > 
+		     <ImageView android:id="@+id/icon_tel" 
+		        android:layout_width="30dp"
+		        android:layout_height="30dp"
+		        android:src="@drawable/callme"	        
+		        android:contentDescription="@string/img_desc"
+		        android:layout_alignParentLeft="true"
+		        android:layout_centerVertical="true"/>	
+		    <!-- Area-->	    
+		    <TextView
+		        android:id="@+id/tel_label"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+      	        android:layout_toRightOf="@+id/icon_tel"
+	            android:layout_centerVertical="true"	        
+		        android:textColor="#343434"
+		        android:textSize="24sp"		        
+		        android:fontFamily="sans-serif"
+		        android:text="@string/comm_label"
+		    	android:paddingLeft="7sp"	 
+		    	android:paddingRight="3sp"   	       
+		        />
+		     <!-- Rightend Arrow -->
+		     <ImageView android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/arrow"
+		        android:contentDescription="@string/img_desc"
+		        android:layout_alignParentRight="true"
+		        android:layout_centerVertical="true"/>		    
+		    </RelativeLayout>
+
+	    <View
+		    android:id="@+id/horizon_line_2"
+		    android:layout_width="fill_parent"
+		    android:layout_height="1dp"
+		    android:paddingBottom="1dp"
+		    android:background="@color/actionbar_background_start"/>
+	    
+ 	 	<RelativeLayout
+ 	 	    android:id="@+id/desc_layout"
+			android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:padding="18sp"
+		    android:paddingLeft="6sp"
+		    android:paddingRight="6sp"	
+		    android:onClick="onClick"
+		    android:background="@drawable/img_btn_selector"        
+	        > 
+		     <ImageView android:id="@+id/icon_desc" 
+		        android:layout_width="30dp"
+		        android:layout_height="30dp"
+		        android:src="@drawable/informations"	        
+		        android:contentDescription="@string/img_desc"
+		        android:layout_alignParentLeft="true"
+		        android:layout_centerVertical="true"/>	
+		    <!-- Area-->	    
+		    <TextView
+		        android:id="@+id/desc_label"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+      	        android:layout_toRightOf="@+id/icon_desc"
+	            android:layout_centerVertical="true"	        
+		        android:textColor="#343434"
+		        android:textSize="24sp"		        
+		        android:fontFamily="sans-serif"
+		        android:text="@string/desc_label"
+		    	android:paddingLeft="7sp"	 
+		    	android:paddingRight="3sp"   	       
+		        />
+		     <!-- Rightend Arrow -->
+		     <ImageView android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/arrow"
+		        android:contentDescription="@string/img_desc"
+		        android:layout_alignParentRight="true"
+		        android:layout_centerVertical="true"/>		    
+		    </RelativeLayout>	 	 			    
+
+	   <View
+		    android:id="@+id/horizon_line_3"
+		    android:layout_width="fill_parent"
+		    android:layout_height="1dp"
+		    android:paddingBottom="1dp"	
+		    android:background="@color/actionbar_background_start"/>	    	
+		    
+ 	 	<RelativeLayout
+ 	 	    android:id="@+id/site_layout"
+			android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:padding="18sp"
+		    android:paddingLeft="6sp"
+		    android:paddingRight="6sp"	
+		    android:onClick="onClick"
+		    android:background="@drawable/img_btn_selector"        
+	        > 
+		     <ImageView android:id="@+id/icon_site" 
+		        android:layout_width="30dp"
+		        android:layout_height="30dp"
+		        android:src="@drawable/http"	        
+		        android:contentDescription="@string/img_desc"
+		        android:layout_alignParentLeft="true"
+		        android:layout_centerVertical="true"/>	
+		   	    
+		    <TextView
+		        android:id="@+id/site_label"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+      	        android:layout_toRightOf="@+id/icon_site"
+	            android:layout_centerVertical="true"	        
+		        android:textColor="#343434"
+		        android:textSize="24sp"		        
+		        android:fontFamily="sans-serif"
+		        android:text="@string/site_label"
+		    	android:paddingLeft="7sp"	 
+		    	android:paddingRight="3sp"   	       
+		        />
+		     <!-- Rightend Arrow -->
+		     <ImageView android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/arrow"
+		        android:contentDescription="@string/img_desc"
+		        android:layout_alignParentRight="true"
+		        android:layout_centerVertical="true"/>		    
+		    </RelativeLayout>	    
+	   	   		   	   		        	       
+		<View
+		    android:id="@+id/horizon_line_4"
+		    android:layout_width="fill_parent"
+		    android:layout_height="1dp"
+		    android:paddingBottom="1dp"	
+		    android:background="@color/actionbar_background_start"/>	    	
+		    
+ 	 	<RelativeLayout
+ 	 	    android:id="@+id/more_imgs_layout"
+			android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:padding="18sp"
+		    android:paddingLeft="6sp"
+		    android:paddingRight="6sp"	
+		    android:onClick="onClick"
+		    android:background="@drawable/img_btn_selector"        
+	        > 
+		     <ImageView android:id="@+id/icon_more_imgs" 
+		        android:layout_width="30dp"
+		        android:layout_height="30dp"
+		        android:src="@drawable/ic_content_picture"	        
+		        android:contentDescription="@string/img_desc"
+		        android:layout_alignParentLeft="true"
+		        android:layout_centerVertical="true"/>	
+		   	    
+		    <TextView
+		        android:id="@+id/more_imgs_label"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+      	        android:layout_toRightOf="@+id/icon_more_imgs"
+	            android:layout_centerVertical="true"	        
+		        android:textColor="#343434"
+		        android:textSize="24sp"		        
+		        android:fontFamily="sans-serif"
+		        android:text="@string/more_imgs_label"
+		    	android:paddingLeft="7sp"	 
+		    	android:paddingRight="3sp"   	       
+		        />
+		     <!-- Rightend Arrow -->
+		     <ImageView android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/arrow"
+		        android:contentDescription="@string/img_desc"
+		        android:layout_alignParentRight="true"
+		        android:layout_centerVertical="true"/>		    
+		    </RelativeLayout>		   		        	       
+ 	 	
+ 	 	
+	    <View
+		    android:id="@+id/horizon_line_5"
+		    android:layout_width="fill_parent"
+		    android:layout_height="1dp"
+		    android:paddingBottom="1dp"
+		    android:background="@color/actionbar_background_start"/>
+
+	     <RelativeLayout
+			android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:padding="18sp"	      
+	        > 	   
+	        
+		     <ImageButton
+		         android:id="@+id/btn_left"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/arrowsleft"
+		        android:background="@drawable/img_btn_selector" 
+		        android:contentDescription="@string/img_desc"
+		        android:layout_alignParentLeft="true"
+		        android:layout_centerVertical="true"/>		    
+		    	
+		    
+	     	<LinearLayout
+	     	    android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:orientation="vertical"
+		        android:layout_centerVertical="true"
+		        android:layout_centerHorizontal="true"
+		        android:layout_marginLeft="20dp"
+		        android:layout_marginRight="20dp"
+		        >	         	 			    
+			   	<TextView
+			        android:id="@+id/subcateg"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"        	         			            
+			        android:fontFamily="sans-serif"			        
+			        android:gravity="center"
+			        android:textSize="20sp"
+			        android:textColor="#343434"
+			        android:text="@string/test"        
+			        /> 
+			        
+		   	   	<TextView
+			        android:id="@+id/categ"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_marginTop="1dip"			        
+			        android:gravity="center"
+			        android:text="@string/test"
+			        android:fontFamily="sans-serif-thin"
+			        android:textSize="18sp"
+			        android:textColor="#343434"		        
+		        	/>  
+	        </LinearLayout>	 		    
+		     <ImageButton 
+		         android:id="@+id/btn_right"
+		         android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/arrowsright"
+		        android:background="@drawable/img_btn_selector" 
+		        android:contentDescription="@string/img_desc"
+		        android:layout_alignParentRight="true"
+		        android:layout_centerVertical="true"/>		    
+		    </RelativeLayout>		        
+         </LinearLayout>
+		       	  		          
+	</LinearLayout>
+</org.dklisiaris.downtown.widgets.CustomScrollView>
+
+<!-- From: file:/E:/Android_Development/AndroidStudioWorkspace/downtown-guide/downtown/src/main/res/layout-large/single_list_item_view.xml -->
