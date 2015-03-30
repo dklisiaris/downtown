@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Downtown by dklisiaris</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>Downtown</h1>
+        <h2>A city guide app</h2>
+        <a href="https://github.com/dklisiaris/downtown" class="button"><small>View project on</small> GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <p><img src="https://dl.dropboxusercontent.com/u/4888041/downtown-app-logo.png" alt="Downtown Logo"></p>
+
+<h1>
+<a id="downtown---city-guide-android-app" class="anchor" href="#downtown---city-guide-android-app" aria-hidden="true"><span class="octicon octicon-link"></span></a>Downtown - City guide android app</h1>
+
+<hr>
+
+<p>NOTICE: This app has been recently migrated from eclipse to android studio and from actionbarsherlock 
+  to actionbarcompat and has been not tested properly thus it remains buggy.
+  Also its admin web app is deprecated and needs to be rewritten.</p>
+
+<p>So the entire downtown application is considered retired and not in development.  </p>
+
+<hr>
+
+<h2>
+<a id="description" class="anchor" href="#description" aria-hidden="true"><span class="octicon octicon-link"></span></a>Description</h2>
+
+<p><em>Downtown</em> is a data driven -reference- city guide app. </p>
+
+<p>It is a very informative App for Tourists, Travelers and local residents of City.</p>
+
+<p>Companies are organized in a category-subcategory manner and by location.
+All data is stored in a local database.
+Most of its data is configurable through http/xml API. A web admin panel has been built to that end.</p>
+
+<h2>
+<a id="feature-list" class="anchor" href="#feature-list" aria-hidden="true"><span class="octicon octicon-link"></span></a>Feature list</h2>
+
+<ul>
+<li>Unlimited categories - subcategories with icons.</li>
+<li>Keyword based <strong>search</strong> function with autocomplete.</li>
+<li>Android maps v2 and map utils.</li>
+<li>Show business locations in Map</li>
+<li>Extracts user location and shows nearby points of interest (filtered by category).</li>
+<li>Clustering of multiple locations.</li>
+<li>Calculates nearest route with car, foot or bus.</li>
+<li>Database storage</li>
+<li>Supports shipping with prepopulated database.</li>
+<li>Async tasks for all database ops.</li>
+<li>Background async update service with notifications.</li>
+<li>Favourites.</li>
+<li>Multiple images per buisiness, downloadble on demand</li>
+<li>Google's ActionBarCompat, ensure action bar availability for lower version device</li>
+<li>Supports advertisments and banners throughout the app. </li>
+<li>Make phone call to business or visit website from URL link in webview.</li>
+<li>Share helper to share on all available services. </li>
+<li>Static pages.</li>
+<li>Holo custom theme.</li>
+<li>Some custom widgets.</li>
+<li>Sliding up panel.</li>
+<li>Image downloading and caching</li>
+</ul>
+
+<h2>
+<a id="screenshots" class="anchor" href="#screenshots" aria-hidden="true"><span class="octicon octicon-link"></span></a>Screenshots</h2>
+
+<p><img src="https://dl.dropboxusercontent.com/u/4888041/downtown-shots/1.png" alt="Screenshot1">
+<img src="https://dl.dropboxusercontent.com/u/4888041/downtown-shots/2.png" alt="Screenshot2">
+<img src="https://dl.dropboxusercontent.com/u/4888041/downtown-shots/3.png" alt="Screenshot3">
+<img src="https://dl.dropboxusercontent.com/u/4888041/downtown-shots/4.png" alt="Screenshot4">
+<img src="https://dl.dropboxusercontent.com/u/4888041/downtown-shots/5.png" alt="Screenshot5">
+<img src="https://dl.dropboxusercontent.com/u/4888041/downtown-shots/6.png" alt="Screenshot6"></p>
+
+<h2>
+<a id="dependencies" class="anchor" href="#dependencies" aria-hidden="true"><span class="octicon octicon-link"></span></a>Dependencies</h2>
+
+<ul>
+<li><a href="https://developer.android.com/google/play-services/index.html">Play Services</a></li>
+<li><a href="https://developer.android.com/tools/support-library/features.html">Support libs with Actionbar Compat</a></li>
+<li>
+<a href="http://googlemaps.github.io/android-maps-utils/">Maps Utils</a>: open-source library contains classes that are useful for a wide range of applications using the <a href="http://developer.android.com/google/play-services/maps.html">Google Maps Android API</a>.</li>
+<li>
+<a href="https://github.com/umano/AndroidSlidingUpPanel">Android Sliding Up Panel</a>: provides a simple way to add a draggable sliding up panel.</li>
+<li>
+<a href="https://github.com/square/picasso">Picasso</a>: powerful image downloading and caching library.</li>
+<li>
+<a href="https://github.com/jgilfelt/android-sqlite-asset-helper">Sqlite Asset Helper</a>: helper class to manage database creation and version management using an application's raw asset files.</li>
+</ul>
+
+<h2>
+<a id="contributing" class="anchor" href="#contributing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contributing</h2>
+
+<ol>
+<li>Fork it ( <a href="https://github.com/dklisiaris/downtown/fork">https://github.com/dklisiaris/downtown/fork</a> )</li>
+<li>Create your feature branch (<code>git checkout -b my-new-feature</code>)</li>
+<li>Commit your changes (<code>git commit -am 'Add some feature'</code>)</li>
+<li>Push to the branch (<code>git push origin my-new-feature</code>)</li>
+<li>Create a new Pull Request</li>
+</ol>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/dklisiaris/downtown/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/dklisiaris/downtown/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/dklisiaris/downtown"></a> is maintained by <a href="https://github.com/dklisiaris">dklisiaris</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+            <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-60418692-4");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
